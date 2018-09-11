@@ -1,0 +1,16 @@
+C:\Users\Денис\Documents\Visual Studio 2015\Projects\Tracer\Tracer\bin\Debug\Tracer.exe.config
+C:\Users\Денис\Documents\Visual Studio 2015\Projects\Tracer\Tracer\bin\Debug\Tracer.exe
+C:\Users\Денис\Documents\Visual Studio 2015\Projects\Tracer\Tracer\bin\Debug\Tracer.pdb
+C:\Users\Денис\Documents\Visual Studio 2015\Projects\Tracer\Tracer\obj\Debug\TraceMethods.csprojResolveAssemblyReference.cache
+C:\Users\Денис\Documents\Visual Studio 2015\Projects\Tracer\Tracer\obj\Debug\Tracer.exe
+C:\Users\Денис\Documents\Visual Studio 2015\Projects\Tracer\Tracer\obj\Debug\Tracer.pdb
+C:\Users\Денис\Documents\Visual Studio 2015\Projects\Tracer\Tracer\bin\Debug\TracerProgram.dll
+C:\Users\Денис\Documents\Visual Studio 2015\Projects\Tracer\Tracer\bin\Debug\TracerProgram.pdb
+C:\Users\Денис\Documents\GitHub\Tracer\Tracer\bin\Debug\Tracer.exe.config
+C:\Users\Денис\Documents\GitHub\Tracer\Tracer\obj\Debug\Tracer.exe
+C:\Users\Денис\Documents\GitHub\Tracer\Tracer\obj\Debug\Tracer.pdb
+C:\Users\Денис\Documents\GitHub\Tracer\Tracer\bin\Debug\Tracer.exe
+C:\Users\Денис\Documents\GitHub\Tracer\Tracer\bin\Debug\Tracer.pdb
+C:\Users\Денис\Documents\GitHub\Tracer\Tracer\bin\Debug\TracerProgram.dll
+C:\Users\Денис\Documents\GitHub\Tracer\Tracer\bin\Debug\TracerProgram.pdb
+C:\Users\Денис\Documents\GitHub\Tracer\Tracer\obj\Debug\TraceMethods.csprojResolveAssemblyReference.cache
