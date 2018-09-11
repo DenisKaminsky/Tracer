@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TracerProgram
+﻿namespace TracerProgram
 {
     public interface ITracer
     {
@@ -12,7 +6,6 @@ namespace TracerProgram
 
         void StopTrace();
 
-
-
+        TraceResult GetTraceResult();
     }
 }
