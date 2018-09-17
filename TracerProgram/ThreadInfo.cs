@@ -8,24 +8,22 @@ namespace TracerProgram
     [DataContract]
     public sealed class ThreadInfo
     {
-        [DataMember(Name = "id")]
         private int id;
-        [DataMember(Name = "time")]
         private long time;
-        [DataMember(Name = "methods")]
         private List<MethodInfo> methods;
         private Stack<MethodInfo> callmethods;
 
+        [DataMember(Name = "id",Order = 0)]
         public int Id
         {
             get { return id; }
         }
-
+        [DataMember(Name = "time",Order = 1)]
         public string Time
         {
             get { return time.ToString()+"ms"; }
         }
-
+        [DataMember(Name = "methods",Order = 2)]
         public List<MethodInfo> Methods
         {
             get { return methods; }
@@ -34,16 +32,16 @@ namespace TracerProgram
         public ThreadInfo()
         {
             time = 0;
-            methods = new List<MethodInfo> { };
-            callmethods = new Stack<MethodInfo> { };
+            methods = new List<MethodInfo>();
+            callmethods = new Stack<MethodInfo>();
         }
 
         public ThreadInfo(int threadID)
         {
             id = threadID;
             time = 0;
-            methods = new List<MethodInfo> { };
-            callmethods = new Stack<MethodInfo> { };           
+            methods = new List<MethodInfo>();
+            callmethods = new Stack<MethodInfo>();           
         }
 
         public void StartTrace(MethodInfo method)

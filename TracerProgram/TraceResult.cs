@@ -14,7 +14,7 @@ namespace TracerProgram
 
         public TraceResult()
         {
-            threadslist = new ConcurrentDictionary<int, ThreadInfo> { };
+            threadslist = new ConcurrentDictionary<int, ThreadInfo>();
         }
 
         public void StartTrace(int id,MethodBase method)

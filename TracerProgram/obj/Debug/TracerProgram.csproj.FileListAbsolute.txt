@@ -2,7 +2,6 @@ C:\Users\Денис\Documents\Visual Studio 2015\Projects\Tracer\TracerProgram\b
 C:\Users\Денис\Documents\Visual Studio 2015\Projects\Tracer\TracerProgram\bin\Debug\TracerProgram.pdb
 C:\Users\Денис\Documents\Visual Studio 2015\Projects\Tracer\TracerProgram\obj\Debug\TracerProgram.dll
 C:\Users\Денис\Documents\Visual Studio 2015\Projects\Tracer\TracerProgram\obj\Debug\TracerProgram.pdb
-C:\Users\Денис\Documents\GitHub\Tracer\TracerProgram\bin\Debug\TracerProgram.dll
 C:\Users\Денис\Documents\GitHub\Tracer\TracerProgram\bin\Debug\TracerProgram.pdb
 C:\Users\Денис\Documents\GitHub\Tracer\TracerProgram\obj\Debug\TracerProgram.csprojResolveAssemblyReference.cache
 C:\Users\Денис\Documents\GitHub\Tracer\TracerProgram\obj\Debug\TracerProgram.dll

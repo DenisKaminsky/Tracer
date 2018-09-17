@@ -49,14 +49,14 @@ namespace TracerProgram
 
         public MethodInfo()
         {
-            methodslist = new List<MethodInfo> { };
+            methodslist = new List<MethodInfo>();
             stopwatch = new Stopwatch();
             time = 0;
         }
 
         public MethodInfo(MethodBase method)
         {
-            methodslist = new List<MethodInfo> { };
+            methodslist = new List<MethodInfo>();
             stopwatch = new Stopwatch();
             method_name = method.Name;
             class_name = method.DeclaringType.Name;
