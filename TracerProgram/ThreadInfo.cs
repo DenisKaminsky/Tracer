@@ -8,15 +8,29 @@ namespace TracerProgram
     [DataContract]
     public class ThreadInfo
     {
-        [DataMember]
+        [DataMember(Name = "id")]
         private int id;
-        [DataMember]
+        [DataMember(Name = "time")]
         private string time;
         private long inttime;
-        [DataMember]
+        [DataMember(Name = "methods")]
         private List<MethodInfo> methods;
         private Stack<MethodInfo> callmethods;
 
+        public int Id
+        {
+            get { return id; }
+        }
+
+        public string Time
+        {
+            get { return time; }
+        }
+
+        public List<MethodInfo> Methods
+        {
+            get { return methods; }
+        }
         public ThreadInfo(int threadID)
         {
             id = threadID;

@@ -10,15 +10,15 @@ namespace TracerProgram
     [DataContract]
     public sealed class MethodInfo
     {
-        [DataMember]
+        [DataMember(Name = "name")]
         private string method_name;
-        [DataMember]
+        [DataMember(Name = "class")]
         private string class_name;
-        [DataMember]
+        [DataMember(Name = "time")]
         private string time;
         [NonSerialized]
         public long inttime;
-        [DataMember]
+        [DataMember(Name = "methods")]
         private List<MethodInfo> methodslist;
         private Stopwatch stopwatch;
        
