@@ -20,9 +20,14 @@ namespace TracerProgram
             threadinfo.StartTrace(new MethodInfo(method));
         }
 
-        public void StopTrace()
+        public void StopTrace(int id)
         {
-
+            ThreadInfo threadinfo;
+            if (! threadslist.TryGetValue(id, out threadinfo))
+            {
+                throw new ArgumentException("invalid thread id");
+            }
+            threadinfo.StopTrace();
         }
     }
 }

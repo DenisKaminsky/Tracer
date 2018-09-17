@@ -14,30 +14,41 @@ namespace Tracer
     {
         static void Main(string[] args)
         {
-            test t = new test();
+            /*test t = new test();
             t.methodtest();
             Console.WriteLine(MethodBase.GetCurrentMethod().Name);
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
             Thread.Sleep(100);
             stopwatch.Stop();
-            Console.WriteLine(stopwatch.ElapsedMilliseconds.ToString()+"ms");
+            Console.WriteLine(stopwatch.ElapsedMilliseconds.ToString()+"ms");*/
+
+            test t = new test();
+            myclass n = new myclass();
+            Console.WriteLine(n.a);
+            t.methodtest(n);
+            Console.WriteLine(n.a);
 
 
 
-        }
-
-        void hi()
-        {
-           
         }
     }
 
     class test
     {
-        public void methodtest()
+        public void methodtest(myclass m)
         {
-            Console.WriteLine(this.GetType().FullName + "." + MethodBase.GetCurrentMethod().Name);
+            //Console.WriteLine(this.GetType().FullName + "." + MethodBase.GetCurrentMethod().Name);
+            m.a = 5;
+        }
+    }
+
+    class myclass
+    {
+        public int a;
+        public myclass()
+        {
+            a = 0;
         }
     }
 }

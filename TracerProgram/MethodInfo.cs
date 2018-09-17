@@ -20,6 +20,10 @@ namespace TracerProgram
             method_name = method.Name;
             class_name = method.DeclaringType.Name;
             time = "0ms";
+        }
+
+        public void StartTrace()
+        {
             stopwatch.Start();
         }
 
@@ -30,7 +34,9 @@ namespace TracerProgram
             stopwatch.Reset();
         }
 
-
-
+        public void AddNestedMethod(MethodInfo method)
+        {
+            methodslist.Add(method);
+        }
     }
 }
