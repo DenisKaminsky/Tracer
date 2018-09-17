@@ -1,14 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.Runtime.Serialization;
 
 namespace TracerProgram
 {
+    [Serializable]
+    [DataContract]
     public class ThreadInfo
     {
-        private int id { get; }
+        [DataMember]
+        private int id;
+        [DataMember]
         private string time;
-
+        private long inttime;
+        [DataMember]
         private List<MethodInfo> methods;
         private Stack<MethodInfo> callmethods;
 
@@ -16,6 +21,7 @@ namespace TracerProgram
         {
             id = threadID;
             time = "0ms";
+            inttime = 0;
             methods = new List<MethodInfo> { };
             callmethods = new Stack<MethodInfo> { };           
         }
@@ -32,7 +38,9 @@ namespace TracerProgram
 
         public void StopTrace()
         {
-            callmethods.Peek().StopTrace();
+            MethodInfo lastmethod = callmethods.Peek();
+            lastmethod.StopTrace();
+            inttime += lastmethod.
             callmethods.Pop();           
         }
     }

@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Concurrent;
-using System.Collections.Generic;
 using System.Reflection;
+using System.Runtime.Serialization;
+
 
 namespace TracerProgram
 {
+    [Serializable]
+    [DataContract]
     public class TraceResult
     {
         private ConcurrentDictionary<int, ThreadInfo> threadslist;
@@ -25,7 +28,7 @@ namespace TracerProgram
             ThreadInfo threadinfo;
             if (! threadslist.TryGetValue(id, out threadinfo))
             {
-                throw new ArgumentException("invalid thread id");
+                throw new ArgumentException("Invalid thread ID");
             }
             threadinfo.StopTrace();
         }

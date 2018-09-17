@@ -1,17 +1,54 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Reflection;
+using System.Runtime.Serialization;
 
 namespace TracerProgram
 {
-    public class MethodInfo
+    [Serializable]
+    [DataContract]
+    public sealed class MethodInfo
     {
-        private string method_name { get; }
-        private string class_name { get; }
+        [DataMember]
+        private string method_name;
+        [DataMember]
+        private string class_name;
+        [DataMember]
         private string time;
-
+        [NonSerialized]
+        public long inttime;
+        [DataMember]
         private List<MethodInfo> methodslist;
         private Stopwatch stopwatch;
+       
+        public string Method_name
+        {
+            get { return method_name; }
+        }
+
+        public string Class_name
+        {
+            get { return class_name; }
+        }
+
+        public string Time
+        {
+            get { return time; }
+        }
+
+        public List<MethodInfo> Methodlist
+        {
+            get { return methodslist; }
+        }
+
+        public MethodInfo()
+        {
+            methodslist = new List<MethodInfo> { };
+            stopwatch = new Stopwatch();
+            time = "0ms";
+            inttime = 0;
+        }
 
         public MethodInfo(MethodBase method)
         {
@@ -20,6 +57,7 @@ namespace TracerProgram
             method_name = method.Name;
             class_name = method.DeclaringType.Name;
             time = "0ms";
+            inttime = 0;
         }
 
         public void StartTrace()
@@ -30,7 +68,8 @@ namespace TracerProgram
         public void StopTrace()
         {
             stopwatch.Stop();
-            time = stopwatch.ElapsedMilliseconds.ToString()+"ms";
+            inttime = stopwatch.ElapsedMilliseconds;
+            time = inttime.ToString()+"ms";
             stopwatch.Reset();
         }
 

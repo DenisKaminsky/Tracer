@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Reflection;
 using System.Threading;
 
@@ -26,7 +21,7 @@ namespace TracerProgram
 
         public void StopTrace()
         {
-            
+            traceresult.StopTrace(Thread.CurrentThread.ManagedThreadId);
         }
 
         public TraceResult GetTraceResult()
