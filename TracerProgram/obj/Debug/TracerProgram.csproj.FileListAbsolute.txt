@@ -6,3 +6,4 @@ C:\Users\Денис\Documents\GitHub\Tracer\TracerProgram\bin\Debug\TracerProgra
 C:\Users\Денис\Documents\GitHub\Tracer\TracerProgram\obj\Debug\TracerProgram.csprojResolveAssemblyReference.cache
 C:\Users\Денис\Documents\GitHub\Tracer\TracerProgram\obj\Debug\TracerProgram.dll
 C:\Users\Денис\Documents\GitHub\Tracer\TracerProgram\obj\Debug\TracerProgram.pdb
+C:\Users\Денис\Documents\GitHub\Tracer\TracerProgram\bin\Debug\TracerProgram.dll

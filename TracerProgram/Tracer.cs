@@ -26,7 +26,7 @@ namespace TracerProgram
 
         public TraceResult GetTraceResult()
         {
-            return null;
+            return traceresult;
         }
     }
 }
