@@ -16,6 +16,12 @@ namespace TracerProgram
 
         public void StartTrace(int id,MethodBase method)
         {
+            ThreadInfo threadinfo = threadslist.GetOrAdd(id, new ThreadInfo(id));
+            threadinfo.StartTrace(new MethodInfo(method));
+        }
+
+        public void StopTrace()
+        {
 
         }
     }

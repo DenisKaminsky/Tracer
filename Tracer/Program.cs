@@ -17,6 +17,14 @@ namespace Tracer
             test t = new test();
             t.methodtest();
             Console.WriteLine(MethodBase.GetCurrentMethod().Name);
+            Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Start();
+            Thread.Sleep(100);
+            stopwatch.Stop();
+            Console.WriteLine(stopwatch.ElapsedMilliseconds.ToString()+"ms");
+
+
+
         }
 
         void hi()
