@@ -6,13 +6,12 @@ namespace TracerProgram
 {
     [Serializable]
     [DataContract]
-    public class ThreadInfo
+    public sealed class ThreadInfo
     {
         [DataMember(Name = "id")]
         private int id;
         [DataMember(Name = "time")]
-        private string time;
-        private long inttime;
+        private long time;
         [DataMember(Name = "methods")]
         private List<MethodInfo> methods;
         private Stack<MethodInfo> callmethods;
@@ -24,18 +23,25 @@ namespace TracerProgram
 
         public string Time
         {
-            get { return time; }
+            get { return time.ToString()+"ms"; }
         }
 
         public List<MethodInfo> Methods
         {
             get { return methods; }
         }
+
+        public ThreadInfo()
+        {
+            time = 0;
+            methods = new List<MethodInfo> { };
+            callmethods = new Stack<MethodInfo> { };
+        }
+
         public ThreadInfo(int threadID)
         {
             id = threadID;
-            time = "0ms";
-            inttime = 0;
+            time = 0;
             methods = new List<MethodInfo> { };
             callmethods = new Stack<MethodInfo> { };           
         }
@@ -54,7 +60,7 @@ namespace TracerProgram
         {
             MethodInfo lastmethod = callmethods.Peek();
             lastmethod.StopTrace();
-            inttime += lastmethod.
+            time += lastmethod.TimeInt;
             callmethods.Pop();           
         }
     }
