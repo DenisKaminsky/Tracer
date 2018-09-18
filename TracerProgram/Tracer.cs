@@ -15,7 +15,7 @@ namespace TracerProgram
 
         public void StartTrace()
         {
-            MethodBase currentMethod = new StackTrace().GetFrame(1).GetMethod();
+            MethodBase currentMethod = new StackTrace().GetFrame(1).GetMethod();            
             traceresult.StartTrace(Thread.CurrentThread.ManagedThreadId, currentMethod);       
         }
 
