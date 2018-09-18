@@ -7,7 +7,10 @@ using System.Reflection;
 using System.Threading;
 using System.Diagnostics;
 using TracerProgram;
-
+using System.Xml.Serialization;
+using System.IO;
+using System.Runtime.Serialization.Json;
+using System.Xml;
 namespace Tracer
 {
     class Program
@@ -21,7 +24,9 @@ namespace Tracer
             tracer.StopTrace();
             TracerProgram.TraceResult result = new TraceResult();
             result = tracer.GetTraceResult();
-            
+
+            ITraceConverter converter = new JsonConverter();
+            converter.Convert(result);                        
         }
 
         static public void method1()

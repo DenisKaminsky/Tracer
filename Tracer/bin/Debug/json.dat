@@ -1,0 +1,56 @@
+{
+  "threads": [
+    {
+      "id": 1,
+      "time": "6654ms",
+      "methods": [
+        {
+          "name": "Main",
+          "class": "Program",
+          "time": "2124ms",
+          "methods": [
+            {
+              "name": "method1",
+              "class": "Program",
+              "time": "405ms",
+              "methods": [
+                {
+                  "name": "method3",
+                  "class": "Program",
+                  "time": "301ms",
+                  "methods": [ ]
+                }
+              ]
+            },
+            {
+              "name": "method2",
+              "class": "Program",
+              "time": "1719ms",
+              "methods": [
+                {
+                  "name": "method4",
+                  "class": "Program",
+                  "time": "401ms",
+                  "methods": [ ]
+                },
+                {
+                  "name": "method5",
+                  "class": "Program",
+                  "time": "1103ms",
+                  "methods": [
+                    {
+                      "name": "method6",
+                      "class": "Program",
+                      "time": "601ms",
+                      "methods": [ ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

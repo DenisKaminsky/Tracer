@@ -22,17 +22,20 @@ namespace TracerProgram
         public string Method_name
         {
             get { return method_name; }
+            private set { }
         }
         [DataMember(Name = "class", Order = 1)]
         public string Class_name
         {
             get { return class_name; }
+            private set { }
         }
 
         [DataMember(Name = "time", Order = 2)]
         public string Time
         {
             get { return time.ToString()+"ms"; }
+            private set { }
         }
 
         [XmlIgnore]
@@ -45,6 +48,7 @@ namespace TracerProgram
         public List<MethodInfo> Methodlist
         {
             get { return methodslist; }
+            private set { }
         }
 
         public MethodInfo()

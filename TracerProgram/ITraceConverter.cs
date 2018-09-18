@@ -2,6 +2,6 @@
 {
     public interface ITraceConverter
     {
-        void ConvertTo(TraceResult traceresult);
+        void Convert(TraceResult traceresult);
     }
 }

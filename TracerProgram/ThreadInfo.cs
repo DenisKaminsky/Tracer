@@ -17,16 +17,19 @@ namespace TracerProgram
         public int Id
         {
             get { return id; }
+            private set { }
         }
         [DataMember(Name = "time",Order = 1)]
         public string Time
         {
             get { return time.ToString()+"ms"; }
+            private set { }
         }
         [DataMember(Name = "methods",Order = 2)]
         public List<MethodInfo> Methods
         {
             get { return methods; }
+            private set { }
         }
 
         public ThreadInfo()

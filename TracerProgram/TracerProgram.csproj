@@ -44,6 +44,7 @@
     <Compile Include="ConsoleConvertation.cs" />
     <Compile Include="ITraceConverter.cs" />
     <Compile Include="ITracer.cs" />
+    <Compile Include="JsonConverter.cs" />
     <Compile Include="MethodInfo.cs" />
     <Compile Include="ThreadInfo.cs" />
     <Compile Include="Tracer.cs" />
