@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
+using System.Xml.Serialization;
 
 namespace TracerProgram
 {
@@ -24,6 +25,11 @@ namespace TracerProgram
         {
             get { return time.ToString()+"ms"; }
             private set { }
+        }
+        [XmlIgnore]
+        public long TimeInt
+        {
+            get { return time; }
         }
         [DataMember(Name = "methods",Order = 2)]
         public List<MethodInfo> Methods

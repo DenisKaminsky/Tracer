@@ -1,0 +1,9 @@
+C:\Users\Денис\Documents\GitHub\Tracer\TracerUnitTest\bin\Debug\TracerUnitTest.dll
+C:\Users\Денис\Documents\GitHub\Tracer\TracerUnitTest\bin\Debug\TracerUnitTest.pdb
+C:\Users\Денис\Documents\GitHub\Tracer\TracerUnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Денис\Documents\GitHub\Tracer\TracerUnitTest\bin\Debug\TracerProgram.dll
+C:\Users\Денис\Documents\GitHub\Tracer\TracerUnitTest\bin\Debug\TracerProgram.pdb
+C:\Users\Денис\Documents\GitHub\Tracer\TracerUnitTest\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Денис\Documents\GitHub\Tracer\TracerUnitTest\obj\Debug\TracerUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\Денис\Documents\GitHub\Tracer\TracerUnitTest\obj\Debug\TracerUnitTest.dll
+C:\Users\Денис\Documents\GitHub\Tracer\TracerUnitTest\obj\Debug\TracerUnitTest.pdb

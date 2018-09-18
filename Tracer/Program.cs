@@ -15,7 +15,7 @@ namespace Tracer
 
         static void Main(string[] args)
         {
-            TraceResult result = new TraceResult();
+            TraceResult result;
             UsingExamples example = new UsingExamples(tracer);
             example.StartTest();
             result = tracer.GetTraceResult();
