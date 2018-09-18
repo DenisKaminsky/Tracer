@@ -19,14 +19,11 @@ namespace TracerProgram
             };
         }
 
-        public void Convert(TraceResult traceresult)
+        public void Convert(TraceResult traceresult,Stream stream)
         {
-            using (FileStream fs = new FileStream("xml.dat", FileMode.Create))
+            using (XmlWriter xmlWriter = XmlWriter.Create(stream, xmlWriterSettings))
             {
-                using (XmlWriter xmlWriter = XmlWriter.Create(fs, xmlWriterSettings))
-                {
-                    xmlconverter.WriteObject(xmlWriter, traceresult);
-                }
+                xmlconverter.WriteObject(xmlWriter, traceresult);
             }
         }
 
