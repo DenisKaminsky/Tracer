@@ -61,7 +61,8 @@ namespace TracerProgram
         {
             MethodInfo lastmethod = callmethods.Peek();
             lastmethod.StopTrace();
-            time += lastmethod.TimeInt;
+            if (callmethods.Count == 1)
+                time += lastmethod.TimeInt;
             callmethods.Pop();           
         }
     }

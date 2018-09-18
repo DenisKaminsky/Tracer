@@ -10,8 +10,8 @@ namespace TracerProgram
     [DataContract]
     public class TraceResult
     {
-       // [DataMember(Name ="threads")]
-        public ConcurrentDictionary<int, ThreadInfo> threadslist;
+        
+        private ConcurrentDictionary<int, ThreadInfo> threadslist;
         [DataMember(Name = "threads")]
         public List<ThreadInfo> threads; 
 

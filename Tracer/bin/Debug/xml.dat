@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root type="object">
+     <threads type="array">
+          <item type="object">
+               <id type="number">1</id>
+               <time>2148ms</time>
+               <methods type="array">
+                    <item type="object">
+                         <name>Main</name>
+                         <class>Program</class>
+                         <time>2148ms</time>
+                         <methods type="array">
+                              <item type="object">
+                                   <name>method1</name>
+                                   <class>Program</class>
+                                   <time>429ms</time>
+                                   <methods type="array">
+                                        <item type="object">
+                                             <name>method3</name>
+                                             <class>Program</class>
+                                             <time>316ms</time>
+                                             <methods type="array" />
+                                        </item>
+                                   </methods>
+                              </item>
+                              <item type="object">
+                                   <name>method2</name>
+                                   <class>Program</class>
+                                   <time>1718ms</time>
+                                   <methods type="array">
+                                        <item type="object">
+                                             <name>method4</name>
+                                             <class>Program</class>
+                                             <time>401ms</time>
+                                             <methods type="array" />
+                                        </item>
+                                        <item type="object">
+                                             <name>method5</name>
+                                             <class>Program</class>
+                                             <time>1103ms</time>
+                                             <methods type="array">
+                                                  <item type="object">
+                                                       <name>method6</name>
+                                                       <class>Program</class>
+                                                       <time>601ms</time>
+                                                       <methods type="array" />
+                                                  </item>
+                                             </methods>
+                                        </item>
+                                   </methods>
+                              </item>
+                         </methods>
+                    </item>
+               </methods>
+          </item>
+     </threads>
+</root>
