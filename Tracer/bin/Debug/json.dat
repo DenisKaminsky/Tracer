@@ -2,22 +2,22 @@
      "threads": [
           {
                "id": 1,
-               "time": "2133ms",
+               "time": "2139ms",
                "methods": [
                     {
                          "name": "Main",
                          "class": "Program",
-                         "time": "2133ms",
+                         "time": "2139ms",
                          "methods": [
                               {
                                    "name": "method1",
                                    "class": "Program",
-                                   "time": "413ms",
+                                   "time": "419ms",
                                    "methods": [
                                         {
                                              "name": "method3",
                                              "class": "Program",
-                                             "time": "302ms",
+                                             "time": "301ms",
                                              "methods": [ ]
                                         }
                                    ]

@@ -30,7 +30,10 @@ namespace Tracer
             converter.Convert(result);
 
             converter = new XMLConverter();
-            converter.Convert(result);            
+            converter.Convert(result);
+
+            converter = new ConsoleConverter();
+            converter.Convert(result);        
         }
 
         static public void method1()

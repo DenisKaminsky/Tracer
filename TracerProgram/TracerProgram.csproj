@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConsoleConvertation.cs" />
+    <Compile Include="ConsoleConverter.cs" />
     <Compile Include="ITraceConverter.cs" />
     <Compile Include="ITracer.cs" />
     <Compile Include="JsonConverter.cs" />

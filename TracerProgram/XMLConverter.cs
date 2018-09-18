@@ -1,17 +1,17 @@
 ﻿using System.IO;
-using System.Runtime.Serialization.Json;
+using System.Runtime.Serialization;
 using System.Xml;
 
 namespace TracerProgram
 {
     public class XMLConverter:ITraceConverter
     {
-        private DataContractJsonSerializer xmlconverter;
+        private DataContractSerializer xmlconverter;
         private XmlWriterSettings xmlWriterSettings; 
 
         public XMLConverter()
-        {
-            xmlconverter = new DataContractJsonSerializer(typeof(TraceResult));
+        {            
+            xmlconverter = new DataContractSerializer(typeof(TraceResult));
             xmlWriterSettings = new XmlWriterSettings
             {
                 Indent = true,

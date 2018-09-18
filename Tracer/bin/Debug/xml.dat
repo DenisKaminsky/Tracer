@@ -1,57 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root type="object">
-     <threads type="array">
-          <item type="object">
-               <id type="number">1</id>
-               <time>2133ms</time>
-               <methods type="array">
-                    <item type="object">
+<TraceResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/TracerProgram">
+     <threads>
+          <ThreadInfo>
+               <id>1</id>
+               <time>2139ms</time>
+               <methods>
+                    <MethodInfo>
                          <name>Main</name>
                          <class>Program</class>
-                         <time>2133ms</time>
-                         <methods type="array">
-                              <item type="object">
+                         <time>2139ms</time>
+                         <methods>
+                              <MethodInfo>
                                    <name>method1</name>
                                    <class>Program</class>
-                                   <time>413ms</time>
-                                   <methods type="array">
-                                        <item type="object">
+                                   <time>419ms</time>
+                                   <methods>
+                                        <MethodInfo>
                                              <name>method3</name>
                                              <class>Program</class>
-                                             <time>302ms</time>
-                                             <methods type="array" />
-                                        </item>
+                                             <time>301ms</time>
+                                             <methods />
+                                        </MethodInfo>
                                    </methods>
-                              </item>
-                              <item type="object">
+                              </MethodInfo>
+                              <MethodInfo>
                                    <name>method2</name>
                                    <class>Program</class>
                                    <time>1719ms</time>
-                                   <methods type="array">
-                                        <item type="object">
+                                   <methods>
+                                        <MethodInfo>
                                              <name>method4</name>
                                              <class>Program</class>
                                              <time>400ms</time>
-                                             <methods type="array" />
-                                        </item>
-                                        <item type="object">
+                                             <methods />
+                                        </MethodInfo>
+                                        <MethodInfo>
                                              <name>method5</name>
                                              <class>Program</class>
                                              <time>1102ms</time>
-                                             <methods type="array">
-                                                  <item type="object">
+                                             <methods>
+                                                  <MethodInfo>
                                                        <name>method6</name>
                                                        <class>Program</class>
                                                        <time>601ms</time>
-                                                       <methods type="array" />
-                                                  </item>
+                                                       <methods />
+                                                  </MethodInfo>
                                              </methods>
-                                        </item>
+                                        </MethodInfo>
                                    </methods>
-                              </item>
+                              </MethodInfo>
                          </methods>
-                    </item>
+                    </MethodInfo>
                </methods>
-          </item>
+          </ThreadInfo>
      </threads>
-</root>
+</TraceResult>
