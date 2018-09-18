@@ -41,9 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConsoleConverter.cs" />
+    <Compile Include="ConsoleWriter.cs" />
+    <Compile Include="FileWriter.cs" />
     <Compile Include="ITraceConverter.cs" />
     <Compile Include="ITracer.cs" />
+    <Compile Include="ITraceWriter.cs" />
     <Compile Include="JsonConverter.cs" />
     <Compile Include="MethodInfo.cs" />
     <Compile Include="ThreadInfo.cs" />

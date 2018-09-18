@@ -21,12 +21,12 @@
           },
           {
                "id": 4,
-               "time": "424ms",
+               "time": "421ms",
                "methods": [
                     {
                          "name": "method1",
                          "class": "UsingExamples",
-                         "time": "424ms",
+                         "time": "421ms",
                          "methods": [
                               {
                                    "name": "method3",
@@ -40,17 +40,17 @@
           },
           {
                "id": 5,
-               "time": "6890ms",
+               "time": "6902ms",
                "methods": [
                     {
                          "name": "method2",
                          "class": "UsingExamples",
-                         "time": "6890ms",
+                         "time": "6902ms",
                          "methods": [
                               {
                                    "name": "method4",
                                    "class": "UsingExamples",
-                                   "time": "405ms",
+                                   "time": "406ms",
                                    "methods": [ ]
                               },
                               {
@@ -79,12 +79,12 @@
           },
           {
                "id": 6,
-               "time": "6890ms",
+               "time": "6887ms",
                "methods": [
                     {
                          "name": "method2",
                          "class": "UsingExamples",
-                         "time": "6890ms",
+                         "time": "6887ms",
                          "methods": [
                               {
                                    "name": "method4",
@@ -118,24 +118,24 @@
           },
           {
                "id": 7,
-               "time": "813ms",
+               "time": "810ms",
                "methods": [
                     {
                          "name": "method8",
                          "class": "UsingExamples",
-                         "time": "813ms",
+                         "time": "810ms",
                          "methods": [ ]
                     }
                ]
           },
           {
                "id": 8,
-               "time": "3140ms",
+               "time": "3137ms",
                "methods": [
                     {
                          "name": "method5",
                          "class": "UsingExamples",
-                         "time": "3140ms",
+                         "time": "3137ms",
                          "methods": [
                               {
                                    "name": "method6",
@@ -156,12 +156,12 @@
           },
           {
                "id": 9,
-               "time": "3140ms",
+               "time": "3153ms",
                "methods": [
                     {
                          "name": "method5",
                          "class": "UsingExamples",
-                         "time": "3140ms",
+                         "time": "3153ms",
                          "methods": [
                               {
                                    "name": "method6",
@@ -182,17 +182,17 @@
           },
           {
                "id": 10,
-               "time": "3140ms",
+               "time": "3137ms",
                "methods": [
                     {
                          "name": "method5",
                          "class": "UsingExamples",
-                         "time": "3140ms",
+                         "time": "3137ms",
                          "methods": [
                               {
                                    "name": "method6",
                                    "class": "UsingExamples",
-                                   "time": "1311ms",
+                                   "time": "1312ms",
                                    "methods": [
                                         {
                                              "name": "method7",
@@ -208,17 +208,17 @@
           },
           {
                "id": 11,
-               "time": "3140ms",
+               "time": "3137ms",
                "methods": [
                     {
                          "name": "method5",
                          "class": "UsingExamples",
-                         "time": "3140ms",
+                         "time": "3137ms",
                          "methods": [
                               {
                                    "name": "method6",
                                    "class": "UsingExamples",
-                                   "time": "1311ms",
+                                   "time": "1312ms",
                                    "methods": [
                                         {
                                              "name": "method7",
@@ -234,12 +234,12 @@
           },
           {
                "id": 12,
-               "time": "3139ms",
+               "time": "3137ms",
                "methods": [
                     {
                          "name": "method5",
                          "class": "UsingExamples",
-                         "time": "3139ms",
+                         "time": "3137ms",
                          "methods": [
                               {
                                    "name": "method6",
@@ -260,17 +260,17 @@
           },
           {
                "id": 13,
-               "time": "3140ms",
+               "time": "3137ms",
                "methods": [
                     {
                          "name": "method5",
                          "class": "UsingExamples",
-                         "time": "3140ms",
+                         "time": "3137ms",
                          "methods": [
                               {
                                    "name": "method6",
                                    "class": "UsingExamples",
-                                   "time": "1311ms",
+                                   "time": "1312ms",
                                    "methods": [
                                         {
                                              "name": "method7",
@@ -286,17 +286,17 @@
           },
           {
                "id": 14,
-               "time": "1312ms",
+               "time": "1309ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1312ms",
+                         "time": "1309ms",
                          "methods": [
                               {
                                    "name": "method7",
                                    "class": "UsingExamples",
-                                   "time": "702ms",
+                                   "time": "701ms",
                                    "methods": [ ]
                               }
                          ]
@@ -305,17 +305,17 @@
           },
           {
                "id": 15,
-               "time": "1312ms",
+               "time": "1308ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1312ms",
+                         "time": "1308ms",
                          "methods": [
                               {
                                    "name": "method7",
                                    "class": "UsingExamples",
-                                   "time": "702ms",
+                                   "time": "701ms",
                                    "methods": [ ]
                               }
                          ]
@@ -324,12 +324,12 @@
           },
           {
                "id": 16,
-               "time": "1311ms",
+               "time": "1309ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1311ms",
+                         "time": "1309ms",
                          "methods": [
                               {
                                    "name": "method7",
@@ -343,12 +343,12 @@
           },
           {
                "id": 17,
-               "time": "1312ms",
+               "time": "1309ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1312ms",
+                         "time": "1309ms",
                          "methods": [
                               {
                                    "name": "method7",
@@ -362,31 +362,12 @@
           },
           {
                "id": 18,
-               "time": "1311ms",
+               "time": "1309ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1311ms",
-                         "methods": [
-                              {
-                                   "name": "method7",
-                                   "class": "UsingExamples",
-                                   "time": "701ms",
-                                   "methods": [ ]
-                              }
-                         ]
-                    }
-               ]
-          },
-          {
-               "id": 19,
-               "time": "1311ms",
-               "methods": [
-                    {
-                         "name": "method6",
-                         "class": "UsingExamples",
-                         "time": "1311ms",
+                         "time": "1309ms",
                          "methods": [
                               {
                                    "name": "method7",
@@ -399,13 +380,32 @@
                ]
           },
           {
-               "id": 20,
-               "time": "1311ms",
+               "id": 19,
+               "time": "1308ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1311ms",
+                         "time": "1308ms",
+                         "methods": [
+                              {
+                                   "name": "method7",
+                                   "class": "UsingExamples",
+                                   "time": "701ms",
+                                   "methods": [ ]
+                              }
+                         ]
+                    }
+               ]
+          },
+          {
+               "id": 20,
+               "time": "1309ms",
+               "methods": [
+                    {
+                         "name": "method6",
+                         "class": "UsingExamples",
+                         "time": "1309ms",
                          "methods": [
                               {
                                    "name": "method7",
@@ -419,17 +419,17 @@
           },
           {
                "id": 21,
-               "time": "1311ms",
+               "time": "1308ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1311ms",
+                         "time": "1308ms",
                          "methods": [
                               {
                                    "name": "method7",
                                    "class": "UsingExamples",
-                                   "time": "701ms",
+                                   "time": "702ms",
                                    "methods": [ ]
                               }
                          ]
@@ -438,12 +438,12 @@
           },
           {
                "id": 22,
-               "time": "1311ms",
+               "time": "1308ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1311ms",
+                         "time": "1308ms",
                          "methods": [
                               {
                                    "name": "method7",
@@ -457,12 +457,12 @@
           },
           {
                "id": 23,
-               "time": "1311ms",
+               "time": "1308ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1311ms",
+                         "time": "1308ms",
                          "methods": [
                               {
                                    "name": "method7",
@@ -476,12 +476,12 @@
           },
           {
                "id": 24,
-               "time": "1311ms",
+               "time": "1308ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1311ms",
+                         "time": "1308ms",
                          "methods": [
                               {
                                    "name": "method7",
@@ -495,17 +495,17 @@
           },
           {
                "id": 25,
-               "time": "1311ms",
+               "time": "1324ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1311ms",
+                         "time": "1324ms",
                          "methods": [
                               {
                                    "name": "method7",
                                    "class": "UsingExamples",
-                                   "time": "701ms",
+                                   "time": "715ms",
                                    "methods": [ ]
                               }
                          ]
@@ -514,12 +514,12 @@
           },
           {
                "id": 26,
-               "time": "1310ms",
+               "time": "1311ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1310ms",
+                         "time": "1311ms",
                          "methods": [
                               {
                                    "name": "method7",
@@ -533,12 +533,12 @@
           },
           {
                "id": 27,
-               "time": "1311ms",
+               "time": "1310ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1311ms",
+                         "time": "1310ms",
                          "methods": [
                               {
                                    "name": "method7",
@@ -552,12 +552,12 @@
           },
           {
                "id": 28,
-               "time": "1310ms",
+               "time": "1311ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1310ms",
+                         "time": "1311ms",
                          "methods": [
                               {
                                    "name": "method7",

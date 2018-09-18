@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Reflection;
+﻿using System.Collections.Generic;
 using System.Threading;
 using TracerProgram;
 
@@ -19,16 +14,23 @@ namespace Tracer
             UsingExamples example = new UsingExamples(tracer);
             example.StartTest();
             result = tracer.GetTraceResult();
-
-            ConvertResult(new JsonConverter(), result);
-            ConvertResult(new XMLConverter(), result);
-            ConvertResult(new ConsoleWriter(), result);      
+            
+            LoadToFile(new JsonConverter(), result,"json.dat");
+            LoadToFile(new XMLConverter(), result,"xml.dat");
+            LoadToConsole(new JsonConverter(), result);      
         }
 
-        static void ConvertResult(ITraceConverter converter,TraceResult result)
-        {            
-            converter.Convert(result);
+        static void LoadToFile(ITraceConverter converter,TraceResult result,string filename)
+        {
+            ITraceWriter writer = new FileWriter(filename);
+            writer.Write(result, converter);
         }        
+
+        static void LoadToConsole(ITraceConverter converter, TraceResult result)
+        {
+            ITraceWriter writer = new ConsoleWriter();
+            writer.Write(result, converter);
+        }
     }    
 
     public class UsingExamples
