@@ -16,6 +16,7 @@ namespace Tracer
     class Program
     {
         static TracerProgram.Tracer tracer = new TracerProgram.Tracer();
+
         static void Main(string[] args)
         {
             tracer.StartTrace();
@@ -29,8 +30,7 @@ namespace Tracer
             converter.Convert(result);
 
             converter = new XMLConverter();
-            converter.Convert(result);
-            
+            converter.Convert(result);            
         }
 
         static public void method1()
