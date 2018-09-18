@@ -33,11 +33,31 @@ namespace TracerUnitTest
             TestMethod();
             tracer.StopTrace();
         }
+
         public void NestedMethod()
         {
             tracer.StartTrace();
             Thread.Sleep(sleeptime);
             Innermethod();
+            tracer.StopTrace();
+        }
+
+        public void MultipleThreadMethod()
+        {
+            tracer.StartTrace();            
+            var threads = new List<Thread>();
+            for (int i = 0; i < 2; i++)
+            {
+                Thread thread = new Thread(TestMethod);
+                threads.Add(thread);
+                thread.Start();
+            }
+            foreach (var thread in threads)
+            {
+                thread.Join();
+            }
+            TestMethod();
+            Thread.Sleep(sleeptime);
             tracer.StopTrace();
         }
 
@@ -92,6 +112,48 @@ namespace TracerUnitTest
 
             Assert.IsTrue(traceresult.threads[0].TimeInt>=sleeptime*3);
         }
+        //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        //вложенные потоки
+        [TestMethod]
+        public void TestNestedThreads()
+        {
+            tracer = new Tracer();
+            sleeptime = 80;
+            int singlemethods = 0, nestedmethods = 0;
+
+            var threads = new List<Thread>();
+            for (int i = 0; i < 3; i++)
+            {
+                Thread thread = new Thread(MultipleThreadMethod);
+                threads.Add(thread);
+                thread.Start();
+            }
+            foreach (var thread in threads)
+            {
+                thread.Join();
+            }
+
+            traceresult = tracer.GetTraceResult();
+            Assert.AreEqual(3*2+3, traceresult.threads.Count);
+            for (int i=0; i< traceresult.threads.Count;i++)
+            {
+                Assert.AreEqual(1,traceresult.threads[i].Methods.Count);
+                Assert.AreEqual(nameof(TracerTest), traceresult.threads[i].Methods[0].Class_name);
+                if (traceresult.threads[i].Methods[0].Methodlist.Count != 0)
+                {
+                    nestedmethods++;         
+                    Assert.AreEqual(nameof(MultipleThreadMethod), traceresult.threads[i].Methods[0].Method_name);
+                    Assert.AreEqual(nameof(TestMethod), traceresult.threads[i].Methods[0].Methodlist[0].Method_name);
+                }
+                else
+                {
+                    singlemethods++;
+                }
+            }
+            Assert.AreEqual(3, nestedmethods);
+        }
 
         //несколько методов в одном потоке(не вложенных)
         [TestMethod]
@@ -113,7 +175,7 @@ namespace TracerUnitTest
             Assert.AreEqual(nameof(TracerTest), traceresult.threads[0].Methods[1].Class_name);
         }
 
-
+        //один метод в одном потоке
         [TestMethod]
         public void TestSingleNestedMethod()
         {
@@ -133,6 +195,7 @@ namespace TracerUnitTest
             Assert.AreEqual(nameof(TracerTest), traceresult.threads[0].Methods[0].Class_name);
         }
 
+        //нескольоко вложенных методов в одном потоке
         [TestMethod]
         public void TestMultipleNestedMethods()
         {
