@@ -2,17 +2,17 @@
      "threads": [
           {
                "id": 1,
-               "time": "2139ms",
+               "time": "2135ms",
                "methods": [
                     {
                          "name": "Main",
                          "class": "Program",
-                         "time": "2139ms",
+                         "time": "2135ms",
                          "methods": [
                               {
                                    "name": "method1",
                                    "class": "Program",
-                                   "time": "419ms",
+                                   "time": "415ms",
                                    "methods": [
                                         {
                                              "name": "method3",
@@ -25,7 +25,7 @@
                               {
                                    "name": "method2",
                                    "class": "Program",
-                                   "time": "1719ms",
+                                   "time": "1720ms",
                                    "methods": [
                                         {
                                              "name": "method4",
@@ -36,7 +36,7 @@
                                         {
                                              "name": "method5",
                                              "class": "Program",
-                                             "time": "1102ms",
+                                             "time": "1103ms",
                                              "methods": [
                                                   {
                                                        "name": "method6",

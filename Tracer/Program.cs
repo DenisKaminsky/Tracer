@@ -26,14 +26,14 @@ namespace Tracer
             TracerProgram.TraceResult result = new TraceResult();
             result = tracer.GetTraceResult();
 
-            ITraceConverter converter = new JsonConverter();
-            converter.Convert(result);
+            ConvertResult(new JsonConverter(), result);
+            ConvertResult(new XMLConverter(), result);
+            ConvertResult(new ConsoleConverter(), result);      
+        }
 
-            converter = new XMLConverter();
+        static void ConvertResult(ITraceConverter converter,TraceResult result)
+        {            
             converter.Convert(result);
-
-            converter = new ConsoleConverter();
-            converter.Convert(result);        
         }
 
         static public void method1()

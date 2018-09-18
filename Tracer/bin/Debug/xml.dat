@@ -3,17 +3,17 @@
      <threads>
           <ThreadInfo>
                <id>1</id>
-               <time>2139ms</time>
+               <time>2135ms</time>
                <methods>
                     <MethodInfo>
                          <name>Main</name>
                          <class>Program</class>
-                         <time>2139ms</time>
+                         <time>2135ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method1</name>
                                    <class>Program</class>
-                                   <time>419ms</time>
+                                   <time>415ms</time>
                                    <methods>
                                         <MethodInfo>
                                              <name>method3</name>
@@ -26,7 +26,7 @@
                               <MethodInfo>
                                    <name>method2</name>
                                    <class>Program</class>
-                                   <time>1719ms</time>
+                                   <time>1720ms</time>
                                    <methods>
                                         <MethodInfo>
                                              <name>method4</name>
@@ -37,7 +37,7 @@
                                         <MethodInfo>
                                              <name>method5</name>
                                              <class>Program</class>
-                                             <time>1102ms</time>
+                                             <time>1103ms</time>
                                              <methods>
                                                   <MethodInfo>
                                                        <name>method6</name>
