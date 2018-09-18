@@ -11,6 +11,8 @@ namespace TracerUnitTest
         private Tracer tracer;
         private int sleeptime;
         private TraceResult traceresult;
+        private const int threadscount = 3;
+        private const int threadsnestedcount = 2;
 
         public void TestMethod()
         {
@@ -46,7 +48,7 @@ namespace TracerUnitTest
         {
             tracer.StartTrace();            
             var threads = new List<Thread>();
-            for (int i = 0; i < 2; i++)
+            for (int i = 0; i < threadsnestedcount; i++)
             {
                 Thread thread = new Thread(TestMethod);
                 threads.Add(thread);
@@ -80,7 +82,7 @@ namespace TracerUnitTest
             sleeptime = 111;
 
             var threads = new List<Thread>();
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < threadscount; i++)
             {
                 Thread thread = new Thread(TestMethod);
                 threads.Add(thread);
@@ -97,7 +99,7 @@ namespace TracerUnitTest
             {
                 actualtime += traceresult.threads[i].TimeInt;
             }
-            Assert.IsTrue(actualtime >= sleeptime * threads.Count);
+            Assert.IsTrue(actualtime >= sleeptime * threadscount);
         }
 
         //время вложенных методов
@@ -124,7 +126,7 @@ namespace TracerUnitTest
             int singlemethods = 0, nestedmethods = 0;
 
             var threads = new List<Thread>();
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < threadscount; i++)
             {
                 Thread thread = new Thread(MultipleThreadMethod);
                 threads.Add(thread);
@@ -136,7 +138,7 @@ namespace TracerUnitTest
             }
 
             traceresult = tracer.GetTraceResult();
-            Assert.AreEqual(3*2+3, traceresult.threads.Count);
+            Assert.AreEqual(threadscount * threadsnestedcount+ threadscount, traceresult.threads.Count);
             for (int i=0; i< traceresult.threads.Count;i++)
             {
                 Assert.AreEqual(1,traceresult.threads[i].Methods.Count);
@@ -148,11 +150,10 @@ namespace TracerUnitTest
                     Assert.AreEqual(nameof(TestMethod), traceresult.threads[i].Methods[0].Methodlist[0].Method_name);
                 }
                 else
-                {
                     singlemethods++;
-                }
             }
-            Assert.AreEqual(3, nestedmethods);
+            Assert.AreEqual(threadscount, nestedmethods);
+            Assert.AreEqual(threadsnestedcount*threadscount, singlemethods);
         }
 
         //несколько методов в одном потоке(не вложенных)
