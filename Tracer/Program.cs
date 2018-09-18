@@ -22,7 +22,7 @@ namespace Tracer
 
             ConvertResult(new JsonConverter(), result);
             ConvertResult(new XMLConverter(), result);
-            ConvertResult(new ConsoleConverter(), result);      
+            ConvertResult(new ConsoleWriter(), result);      
         }
 
         static void ConvertResult(ITraceConverter converter,TraceResult result)

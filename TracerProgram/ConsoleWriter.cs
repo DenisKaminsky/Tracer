@@ -6,23 +6,24 @@ using System.Text;
 
 namespace TracerProgram
 {
-    public class ConsoleConverter: ITraceConverter
-    {
+    public class ConsoleWriter: ITraceWriter
+    {/*
         private DataContractJsonSerializer jsonFormatter;
 
-        public ConsoleConverter()
+        public ConsoleWriter()
         {
             jsonFormatter = new DataContractJsonSerializer(typeof(TraceResult));
-        }
+        }*/
 
-        public void Convert(TraceResult traceresult)
+        public void Write(TraceResult traceresult, ITraceConverter converter)
         {
             using (Stream consolestream = Console.OpenStandardOutput())
             {
-                using (XmlDictionaryWriter jsonWriter = JsonReaderWriterFactory.CreateJsonWriter(consolestream, Encoding.UTF8, ownsStream: true, indent: true, indentChars: "     "))
+                converter.Convert(traceresult, consolestream);
+                /*using (XmlDictionaryWriter jsonWriter = JsonReaderWriterFactory.CreateJsonWriter(consolestream, Encoding.UTF8, ownsStream: true, indent: true, indentChars: "     "))
                 {
                     jsonFormatter.WriteObject(jsonWriter, traceresult);
-                }
+                }*/
             }
         }
     }

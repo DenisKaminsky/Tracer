@@ -14,15 +14,13 @@ namespace TracerProgram
             jsonFormatter = new DataContractJsonSerializer(typeof(TraceResult));
         }
 
-        public void Convert(TraceResult traceresult)
+        public void Convert(TraceResult traceresult,Stream stream)
         {
-            using (FileStream fs = new FileStream("json.dat", FileMode.Create))
+            using (XmlDictionaryWriter jsonWriter = JsonReaderWriterFactory.CreateJsonWriter(stream, Encoding.UTF8, ownsStream: true, indent: true,indentChars: "     "))
             {
-                using (XmlDictionaryWriter jsonWriter = JsonReaderWriterFactory.CreateJsonWriter(fs, Encoding.UTF8, ownsStream: true, indent: true,indentChars: "     "))
-                {
-                    jsonFormatter.WriteObject(jsonWriter, traceresult);
-                }
+                jsonFormatter.WriteObject(jsonWriter, traceresult);
             }
+            
         }
     }
 }
