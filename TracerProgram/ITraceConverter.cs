@@ -1,7 +1,9 @@
-﻿namespace TracerProgram
+﻿using System.IO;
+
+namespace TracerProgram
 {
     public interface ITraceConverter
     {
-        void Convert(TraceResult traceresult);
+        void Convert(TraceResult traceresult,Stream stream);
     }
 }

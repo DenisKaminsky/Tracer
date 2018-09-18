@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TracerProgram
+﻿namespace TracerProgram
 {
     public interface ITraceWriter
     {        
-        void Write(TraceResult traceresult);        
+        void Write(TraceResult traceresult,ITraceConverter converter);        
     }
 }
