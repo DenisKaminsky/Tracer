@@ -12,7 +12,7 @@ namespace TracerProgram
         private int id;
         private long time;
         private List<MethodInfo> methods;
-        private Stack<MethodInfo> callmethods;
+        private Stack<MethodInfo> callMethods;
 
         [DataMember(Name = "id",Order = 0)]
         public int Id
@@ -42,7 +42,7 @@ namespace TracerProgram
         {
             time = 0;
             methods = new List<MethodInfo>();
-            callmethods = new Stack<MethodInfo>();
+            callMethods = new Stack<MethodInfo>();
         }
 
         public ThreadInfo(int threadID)
@@ -50,26 +50,26 @@ namespace TracerProgram
             id = threadID;
             time = 0;
             methods = new List<MethodInfo>();
-            callmethods = new Stack<MethodInfo>();           
+            callMethods = new Stack<MethodInfo>();           
         }
 
         public void StartTrace(MethodInfo method)
         {
-            if (callmethods.Count == 0)
+            if (callMethods.Count == 0)
                 methods.Add(method);
             else
-                callmethods.Peek().AddNestedMethod(method);                
-            callmethods.Push(method);
+                callMethods.Peek().AddNestedMethod(method);                
+            callMethods.Push(method);
             method.StartTrace();
         }
 
         public void StopTrace()
         {
-            MethodInfo lastmethod = callmethods.Peek();
+            MethodInfo lastmethod = callMethods.Peek();
             lastmethod.StopTrace();
-            if (callmethods.Count == 1)
+            if (callMethods.Count == 1)
                 time += lastmethod.TimeInt;
-            callmethods.Pop();           
+            callMethods.Pop();           
         }
     }
 }

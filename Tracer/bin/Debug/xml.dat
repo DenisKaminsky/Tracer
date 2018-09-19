@@ -3,17 +3,17 @@
      <threads>
           <ThreadInfo>
                <id>3</id>
-               <time>421ms</time>
+               <time>420ms</time>
                <methods>
                     <MethodInfo>
                          <name>method1</name>
                          <class>UsingExamples</class>
-                         <time>421ms</time>
+                         <time>420ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method3</name>
                                    <class>UsingExamples</class>
-                                   <time>313ms</time>
+                                   <time>317ms</time>
                                    <methods />
                               </MethodInfo>
                          </methods>
@@ -22,17 +22,17 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>4</id>
-               <time>421ms</time>
+               <time>420ms</time>
                <methods>
                     <MethodInfo>
                          <name>method1</name>
                          <class>UsingExamples</class>
-                         <time>421ms</time>
+                         <time>420ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method3</name>
                                    <class>UsingExamples</class>
-                                   <time>313ms</time>
+                                   <time>317ms</time>
                                    <methods />
                               </MethodInfo>
                          </methods>
@@ -41,33 +41,33 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>5</id>
-               <time>6902ms</time>
+               <time>6896ms</time>
                <methods>
                     <MethodInfo>
                          <name>method2</name>
                          <class>UsingExamples</class>
-                         <time>6902ms</time>
+                         <time>6896ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method4</name>
                                    <class>UsingExamples</class>
-                                   <time>406ms</time>
+                                   <time>407ms</time>
                                    <methods />
                               </MethodInfo>
                               <MethodInfo>
                                    <name>method5</name>
                                    <class>UsingExamples</class>
-                                   <time>3139ms</time>
+                                   <time>3149ms</time>
                                    <methods>
                                         <MethodInfo>
                                              <name>method6</name>
                                              <class>UsingExamples</class>
-                                             <time>1312ms</time>
+                                             <time>1317ms</time>
                                              <methods>
                                                   <MethodInfo>
                                                        <name>method7</name>
                                                        <class>UsingExamples</class>
-                                                       <time>702ms</time>
+                                                       <time>704ms</time>
                                                        <methods />
                                                   </MethodInfo>
                                              </methods>
@@ -80,33 +80,33 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>6</id>
-               <time>6887ms</time>
+               <time>6897ms</time>
                <methods>
                     <MethodInfo>
                          <name>method2</name>
                          <class>UsingExamples</class>
-                         <time>6887ms</time>
+                         <time>6897ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method4</name>
                                    <class>UsingExamples</class>
-                                   <time>405ms</time>
+                                   <time>407ms</time>
                                    <methods />
                               </MethodInfo>
                               <MethodInfo>
                                    <name>method5</name>
                                    <class>UsingExamples</class>
-                                   <time>3139ms</time>
+                                   <time>3149ms</time>
                                    <methods>
                                         <MethodInfo>
                                              <name>method6</name>
                                              <class>UsingExamples</class>
-                                             <time>1312ms</time>
+                                             <time>1317ms</time>
                                              <methods>
                                                   <MethodInfo>
                                                        <name>method7</name>
                                                        <class>UsingExamples</class>
-                                                       <time>702ms</time>
+                                                       <time>703ms</time>
                                                        <methods />
                                                   </MethodInfo>
                                              </methods>
@@ -119,34 +119,34 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>7</id>
-               <time>810ms</time>
+               <time>802ms</time>
                <methods>
                     <MethodInfo>
                          <name>method8</name>
                          <class>UsingExamples</class>
-                         <time>810ms</time>
+                         <time>802ms</time>
                          <methods />
                     </MethodInfo>
                </methods>
           </ThreadInfo>
           <ThreadInfo>
                <id>8</id>
-               <time>3137ms</time>
+               <time>3131ms</time>
                <methods>
                     <MethodInfo>
                          <name>method5</name>
                          <class>UsingExamples</class>
-                         <time>3137ms</time>
+                         <time>3131ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method6</name>
                                    <class>UsingExamples</class>
-                                   <time>1312ms</time>
+                                   <time>1310ms</time>
                                    <methods>
                                         <MethodInfo>
                                              <name>method7</name>
                                              <class>UsingExamples</class>
-                                             <time>702ms</time>
+                                             <time>704ms</time>
                                              <methods />
                                         </MethodInfo>
                                    </methods>
@@ -157,22 +157,22 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>9</id>
-               <time>3153ms</time>
+               <time>3131ms</time>
                <methods>
                     <MethodInfo>
                          <name>method5</name>
                          <class>UsingExamples</class>
-                         <time>3153ms</time>
+                         <time>3131ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method6</name>
                                    <class>UsingExamples</class>
-                                   <time>1312ms</time>
+                                   <time>1310ms</time>
                                    <methods>
                                         <MethodInfo>
                                              <name>method7</name>
                                              <class>UsingExamples</class>
-                                             <time>702ms</time>
+                                             <time>704ms</time>
                                              <methods />
                                         </MethodInfo>
                                    </methods>
@@ -183,22 +183,22 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>10</id>
-               <time>3137ms</time>
+               <time>3131ms</time>
                <methods>
                     <MethodInfo>
                          <name>method5</name>
                          <class>UsingExamples</class>
-                         <time>3137ms</time>
+                         <time>3131ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method6</name>
                                    <class>UsingExamples</class>
-                                   <time>1312ms</time>
+                                   <time>1310ms</time>
                                    <methods>
                                         <MethodInfo>
                                              <name>method7</name>
                                              <class>UsingExamples</class>
-                                             <time>702ms</time>
+                                             <time>704ms</time>
                                              <methods />
                                         </MethodInfo>
                                    </methods>
@@ -209,22 +209,22 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>11</id>
-               <time>3137ms</time>
+               <time>3131ms</time>
                <methods>
                     <MethodInfo>
                          <name>method5</name>
                          <class>UsingExamples</class>
-                         <time>3137ms</time>
+                         <time>3131ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method6</name>
                                    <class>UsingExamples</class>
-                                   <time>1312ms</time>
+                                   <time>1310ms</time>
                                    <methods>
                                         <MethodInfo>
                                              <name>method7</name>
                                              <class>UsingExamples</class>
-                                             <time>702ms</time>
+                                             <time>704ms</time>
                                              <methods />
                                         </MethodInfo>
                                    </methods>
@@ -235,22 +235,22 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>12</id>
-               <time>3137ms</time>
+               <time>3131ms</time>
                <methods>
                     <MethodInfo>
                          <name>method5</name>
                          <class>UsingExamples</class>
-                         <time>3137ms</time>
+                         <time>3131ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method6</name>
                                    <class>UsingExamples</class>
-                                   <time>1312ms</time>
+                                   <time>1310ms</time>
                                    <methods>
                                         <MethodInfo>
                                              <name>method7</name>
                                              <class>UsingExamples</class>
-                                             <time>702ms</time>
+                                             <time>704ms</time>
                                              <methods />
                                         </MethodInfo>
                                    </methods>
@@ -261,22 +261,22 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>13</id>
-               <time>3137ms</time>
+               <time>3131ms</time>
                <methods>
                     <MethodInfo>
                          <name>method5</name>
                          <class>UsingExamples</class>
-                         <time>3137ms</time>
+                         <time>3131ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method6</name>
                                    <class>UsingExamples</class>
-                                   <time>1312ms</time>
+                                   <time>1310ms</time>
                                    <methods>
                                         <MethodInfo>
                                              <name>method7</name>
                                              <class>UsingExamples</class>
-                                             <time>702ms</time>
+                                             <time>704ms</time>
                                              <methods />
                                         </MethodInfo>
                                    </methods>
@@ -287,17 +287,17 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>14</id>
-               <time>1309ms</time>
+               <time>1317ms</time>
                <methods>
                     <MethodInfo>
                          <name>method6</name>
                          <class>UsingExamples</class>
-                         <time>1309ms</time>
+                         <time>1317ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method7</name>
                                    <class>UsingExamples</class>
-                                   <time>701ms</time>
+                                   <time>706ms</time>
                                    <methods />
                               </MethodInfo>
                          </methods>
@@ -306,17 +306,17 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>15</id>
-               <time>1308ms</time>
+               <time>1317ms</time>
                <methods>
                     <MethodInfo>
                          <name>method6</name>
                          <class>UsingExamples</class>
-                         <time>1308ms</time>
+                         <time>1317ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method7</name>
                                    <class>UsingExamples</class>
-                                   <time>701ms</time>
+                                   <time>705ms</time>
                                    <methods />
                               </MethodInfo>
                          </methods>
@@ -325,17 +325,17 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>16</id>
-               <time>1309ms</time>
+               <time>1317ms</time>
                <methods>
                     <MethodInfo>
                          <name>method6</name>
                          <class>UsingExamples</class>
-                         <time>1309ms</time>
+                         <time>1317ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method7</name>
                                    <class>UsingExamples</class>
-                                   <time>702ms</time>
+                                   <time>705ms</time>
                                    <methods />
                               </MethodInfo>
                          </methods>
@@ -344,17 +344,17 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>17</id>
-               <time>1309ms</time>
+               <time>1317ms</time>
                <methods>
                     <MethodInfo>
                          <name>method6</name>
                          <class>UsingExamples</class>
-                         <time>1309ms</time>
+                         <time>1317ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method7</name>
                                    <class>UsingExamples</class>
-                                   <time>702ms</time>
+                                   <time>706ms</time>
                                    <methods />
                               </MethodInfo>
                          </methods>
@@ -363,17 +363,17 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>18</id>
-               <time>1309ms</time>
+               <time>1317ms</time>
                <methods>
                     <MethodInfo>
                          <name>method6</name>
                          <class>UsingExamples</class>
-                         <time>1309ms</time>
+                         <time>1317ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method7</name>
                                    <class>UsingExamples</class>
-                                   <time>702ms</time>
+                                   <time>706ms</time>
                                    <methods />
                               </MethodInfo>
                          </methods>
@@ -382,17 +382,17 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>19</id>
-               <time>1308ms</time>
+               <time>1317ms</time>
                <methods>
                     <MethodInfo>
                          <name>method6</name>
                          <class>UsingExamples</class>
-                         <time>1308ms</time>
+                         <time>1317ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method7</name>
                                    <class>UsingExamples</class>
-                                   <time>701ms</time>
+                                   <time>706ms</time>
                                    <methods />
                               </MethodInfo>
                          </methods>
@@ -401,17 +401,17 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>20</id>
-               <time>1309ms</time>
+               <time>1317ms</time>
                <methods>
                     <MethodInfo>
                          <name>method6</name>
                          <class>UsingExamples</class>
-                         <time>1309ms</time>
+                         <time>1317ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method7</name>
                                    <class>UsingExamples</class>
-                                   <time>701ms</time>
+                                   <time>706ms</time>
                                    <methods />
                               </MethodInfo>
                          </methods>
@@ -420,17 +420,17 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>21</id>
-               <time>1308ms</time>
+               <time>1317ms</time>
                <methods>
                     <MethodInfo>
                          <name>method6</name>
                          <class>UsingExamples</class>
-                         <time>1308ms</time>
+                         <time>1317ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method7</name>
                                    <class>UsingExamples</class>
-                                   <time>702ms</time>
+                                   <time>705ms</time>
                                    <methods />
                               </MethodInfo>
                          </methods>
@@ -439,17 +439,17 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>22</id>
-               <time>1308ms</time>
+               <time>1316ms</time>
                <methods>
                     <MethodInfo>
                          <name>method6</name>
                          <class>UsingExamples</class>
-                         <time>1308ms</time>
+                         <time>1316ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method7</name>
                                    <class>UsingExamples</class>
-                                   <time>701ms</time>
+                                   <time>706ms</time>
                                    <methods />
                               </MethodInfo>
                          </methods>
@@ -458,17 +458,17 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>23</id>
-               <time>1308ms</time>
+               <time>1317ms</time>
                <methods>
                     <MethodInfo>
                          <name>method6</name>
                          <class>UsingExamples</class>
-                         <time>1308ms</time>
+                         <time>1317ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method7</name>
                                    <class>UsingExamples</class>
-                                   <time>701ms</time>
+                                   <time>706ms</time>
                                    <methods />
                               </MethodInfo>
                          </methods>
@@ -477,17 +477,17 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>24</id>
-               <time>1308ms</time>
+               <time>1317ms</time>
                <methods>
                     <MethodInfo>
                          <name>method6</name>
                          <class>UsingExamples</class>
-                         <time>1308ms</time>
+                         <time>1317ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method7</name>
                                    <class>UsingExamples</class>
-                                   <time>701ms</time>
+                                   <time>705ms</time>
                                    <methods />
                               </MethodInfo>
                          </methods>
@@ -496,17 +496,17 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>25</id>
-               <time>1324ms</time>
+               <time>1316ms</time>
                <methods>
                     <MethodInfo>
                          <name>method6</name>
                          <class>UsingExamples</class>
-                         <time>1324ms</time>
+                         <time>1316ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method7</name>
                                    <class>UsingExamples</class>
-                                   <time>715ms</time>
+                                   <time>706ms</time>
                                    <methods />
                               </MethodInfo>
                          </methods>
@@ -515,17 +515,17 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>26</id>
-               <time>1311ms</time>
+               <time>1320ms</time>
                <methods>
                     <MethodInfo>
                          <name>method6</name>
                          <class>UsingExamples</class>
-                         <time>1311ms</time>
+                         <time>1320ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method7</name>
                                    <class>UsingExamples</class>
-                                   <time>702ms</time>
+                                   <time>712ms</time>
                                    <methods />
                               </MethodInfo>
                          </methods>
@@ -534,17 +534,17 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>27</id>
-               <time>1310ms</time>
+               <time>1319ms</time>
                <methods>
                     <MethodInfo>
                          <name>method6</name>
                          <class>UsingExamples</class>
-                         <time>1310ms</time>
+                         <time>1319ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method7</name>
                                    <class>UsingExamples</class>
-                                   <time>702ms</time>
+                                   <time>713ms</time>
                                    <methods />
                               </MethodInfo>
                          </methods>
@@ -553,17 +553,17 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>28</id>
-               <time>1311ms</time>
+               <time>1319ms</time>
                <methods>
                     <MethodInfo>
                          <name>method6</name>
                          <class>UsingExamples</class>
-                         <time>1311ms</time>
+                         <time>1319ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method7</name>
                                    <class>UsingExamples</class>
-                                   <time>702ms</time>
+                                   <time>713ms</time>
                                    <methods />
                               </MethodInfo>
                          </methods>
@@ -572,17 +572,17 @@
           </ThreadInfo>
           <ThreadInfo>
                <id>29</id>
-               <time>1310ms</time>
+               <time>1319ms</time>
                <methods>
                     <MethodInfo>
                          <name>method6</name>
                          <class>UsingExamples</class>
-                         <time>1310ms</time>
+                         <time>1319ms</time>
                          <methods>
                               <MethodInfo>
                                    <name>method7</name>
                                    <class>UsingExamples</class>
-                                   <time>702ms</time>
+                                   <time>713ms</time>
                                    <methods />
                               </MethodInfo>
                          </methods>

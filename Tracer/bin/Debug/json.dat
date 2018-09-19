@@ -2,17 +2,17 @@
      "threads": [
           {
                "id": 3,
-               "time": "421ms",
+               "time": "420ms",
                "methods": [
                     {
                          "name": "method1",
                          "class": "UsingExamples",
-                         "time": "421ms",
+                         "time": "420ms",
                          "methods": [
                               {
                                    "name": "method3",
                                    "class": "UsingExamples",
-                                   "time": "313ms",
+                                   "time": "317ms",
                                    "methods": [ ]
                               }
                          ]
@@ -21,17 +21,17 @@
           },
           {
                "id": 4,
-               "time": "421ms",
+               "time": "420ms",
                "methods": [
                     {
                          "name": "method1",
                          "class": "UsingExamples",
-                         "time": "421ms",
+                         "time": "420ms",
                          "methods": [
                               {
                                    "name": "method3",
                                    "class": "UsingExamples",
-                                   "time": "313ms",
+                                   "time": "317ms",
                                    "methods": [ ]
                               }
                          ]
@@ -40,33 +40,33 @@
           },
           {
                "id": 5,
-               "time": "6902ms",
+               "time": "6896ms",
                "methods": [
                     {
                          "name": "method2",
                          "class": "UsingExamples",
-                         "time": "6902ms",
+                         "time": "6896ms",
                          "methods": [
                               {
                                    "name": "method4",
                                    "class": "UsingExamples",
-                                   "time": "406ms",
+                                   "time": "407ms",
                                    "methods": [ ]
                               },
                               {
                                    "name": "method5",
                                    "class": "UsingExamples",
-                                   "time": "3139ms",
+                                   "time": "3149ms",
                                    "methods": [
                                         {
                                              "name": "method6",
                                              "class": "UsingExamples",
-                                             "time": "1312ms",
+                                             "time": "1317ms",
                                              "methods": [
                                                   {
                                                        "name": "method7",
                                                        "class": "UsingExamples",
-                                                       "time": "702ms",
+                                                       "time": "704ms",
                                                        "methods": [ ]
                                                   }
                                              ]
@@ -79,33 +79,33 @@
           },
           {
                "id": 6,
-               "time": "6887ms",
+               "time": "6897ms",
                "methods": [
                     {
                          "name": "method2",
                          "class": "UsingExamples",
-                         "time": "6887ms",
+                         "time": "6897ms",
                          "methods": [
                               {
                                    "name": "method4",
                                    "class": "UsingExamples",
-                                   "time": "405ms",
+                                   "time": "407ms",
                                    "methods": [ ]
                               },
                               {
                                    "name": "method5",
                                    "class": "UsingExamples",
-                                   "time": "3139ms",
+                                   "time": "3149ms",
                                    "methods": [
                                         {
                                              "name": "method6",
                                              "class": "UsingExamples",
-                                             "time": "1312ms",
+                                             "time": "1317ms",
                                              "methods": [
                                                   {
                                                        "name": "method7",
                                                        "class": "UsingExamples",
-                                                       "time": "702ms",
+                                                       "time": "703ms",
                                                        "methods": [ ]
                                                   }
                                              ]
@@ -118,34 +118,34 @@
           },
           {
                "id": 7,
-               "time": "810ms",
+               "time": "802ms",
                "methods": [
                     {
                          "name": "method8",
                          "class": "UsingExamples",
-                         "time": "810ms",
+                         "time": "802ms",
                          "methods": [ ]
                     }
                ]
           },
           {
                "id": 8,
-               "time": "3137ms",
+               "time": "3131ms",
                "methods": [
                     {
                          "name": "method5",
                          "class": "UsingExamples",
-                         "time": "3137ms",
+                         "time": "3131ms",
                          "methods": [
                               {
                                    "name": "method6",
                                    "class": "UsingExamples",
-                                   "time": "1312ms",
+                                   "time": "1310ms",
                                    "methods": [
                                         {
                                              "name": "method7",
                                              "class": "UsingExamples",
-                                             "time": "702ms",
+                                             "time": "704ms",
                                              "methods": [ ]
                                         }
                                    ]
@@ -156,22 +156,22 @@
           },
           {
                "id": 9,
-               "time": "3153ms",
+               "time": "3131ms",
                "methods": [
                     {
                          "name": "method5",
                          "class": "UsingExamples",
-                         "time": "3153ms",
+                         "time": "3131ms",
                          "methods": [
                               {
                                    "name": "method6",
                                    "class": "UsingExamples",
-                                   "time": "1312ms",
+                                   "time": "1310ms",
                                    "methods": [
                                         {
                                              "name": "method7",
                                              "class": "UsingExamples",
-                                             "time": "702ms",
+                                             "time": "704ms",
                                              "methods": [ ]
                                         }
                                    ]
@@ -182,22 +182,22 @@
           },
           {
                "id": 10,
-               "time": "3137ms",
+               "time": "3131ms",
                "methods": [
                     {
                          "name": "method5",
                          "class": "UsingExamples",
-                         "time": "3137ms",
+                         "time": "3131ms",
                          "methods": [
                               {
                                    "name": "method6",
                                    "class": "UsingExamples",
-                                   "time": "1312ms",
+                                   "time": "1310ms",
                                    "methods": [
                                         {
                                              "name": "method7",
                                              "class": "UsingExamples",
-                                             "time": "702ms",
+                                             "time": "704ms",
                                              "methods": [ ]
                                         }
                                    ]
@@ -208,22 +208,22 @@
           },
           {
                "id": 11,
-               "time": "3137ms",
+               "time": "3131ms",
                "methods": [
                     {
                          "name": "method5",
                          "class": "UsingExamples",
-                         "time": "3137ms",
+                         "time": "3131ms",
                          "methods": [
                               {
                                    "name": "method6",
                                    "class": "UsingExamples",
-                                   "time": "1312ms",
+                                   "time": "1310ms",
                                    "methods": [
                                         {
                                              "name": "method7",
                                              "class": "UsingExamples",
-                                             "time": "702ms",
+                                             "time": "704ms",
                                              "methods": [ ]
                                         }
                                    ]
@@ -234,22 +234,22 @@
           },
           {
                "id": 12,
-               "time": "3137ms",
+               "time": "3131ms",
                "methods": [
                     {
                          "name": "method5",
                          "class": "UsingExamples",
-                         "time": "3137ms",
+                         "time": "3131ms",
                          "methods": [
                               {
                                    "name": "method6",
                                    "class": "UsingExamples",
-                                   "time": "1312ms",
+                                   "time": "1310ms",
                                    "methods": [
                                         {
                                              "name": "method7",
                                              "class": "UsingExamples",
-                                             "time": "702ms",
+                                             "time": "704ms",
                                              "methods": [ ]
                                         }
                                    ]
@@ -260,22 +260,22 @@
           },
           {
                "id": 13,
-               "time": "3137ms",
+               "time": "3131ms",
                "methods": [
                     {
                          "name": "method5",
                          "class": "UsingExamples",
-                         "time": "3137ms",
+                         "time": "3131ms",
                          "methods": [
                               {
                                    "name": "method6",
                                    "class": "UsingExamples",
-                                   "time": "1312ms",
+                                   "time": "1310ms",
                                    "methods": [
                                         {
                                              "name": "method7",
                                              "class": "UsingExamples",
-                                             "time": "702ms",
+                                             "time": "704ms",
                                              "methods": [ ]
                                         }
                                    ]
@@ -286,17 +286,17 @@
           },
           {
                "id": 14,
-               "time": "1309ms",
+               "time": "1317ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1309ms",
+                         "time": "1317ms",
                          "methods": [
                               {
                                    "name": "method7",
                                    "class": "UsingExamples",
-                                   "time": "701ms",
+                                   "time": "706ms",
                                    "methods": [ ]
                               }
                          ]
@@ -305,17 +305,17 @@
           },
           {
                "id": 15,
-               "time": "1308ms",
+               "time": "1317ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1308ms",
+                         "time": "1317ms",
                          "methods": [
                               {
                                    "name": "method7",
                                    "class": "UsingExamples",
-                                   "time": "701ms",
+                                   "time": "705ms",
                                    "methods": [ ]
                               }
                          ]
@@ -324,17 +324,17 @@
           },
           {
                "id": 16,
-               "time": "1309ms",
+               "time": "1317ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1309ms",
+                         "time": "1317ms",
                          "methods": [
                               {
                                    "name": "method7",
                                    "class": "UsingExamples",
-                                   "time": "702ms",
+                                   "time": "705ms",
                                    "methods": [ ]
                               }
                          ]
@@ -343,17 +343,17 @@
           },
           {
                "id": 17,
-               "time": "1309ms",
+               "time": "1317ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1309ms",
+                         "time": "1317ms",
                          "methods": [
                               {
                                    "name": "method7",
                                    "class": "UsingExamples",
-                                   "time": "702ms",
+                                   "time": "706ms",
                                    "methods": [ ]
                               }
                          ]
@@ -362,17 +362,17 @@
           },
           {
                "id": 18,
-               "time": "1309ms",
+               "time": "1317ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1309ms",
+                         "time": "1317ms",
                          "methods": [
                               {
                                    "name": "method7",
                                    "class": "UsingExamples",
-                                   "time": "702ms",
+                                   "time": "706ms",
                                    "methods": [ ]
                               }
                          ]
@@ -381,17 +381,17 @@
           },
           {
                "id": 19,
-               "time": "1308ms",
+               "time": "1317ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1308ms",
+                         "time": "1317ms",
                          "methods": [
                               {
                                    "name": "method7",
                                    "class": "UsingExamples",
-                                   "time": "701ms",
+                                   "time": "706ms",
                                    "methods": [ ]
                               }
                          ]
@@ -400,17 +400,17 @@
           },
           {
                "id": 20,
-               "time": "1309ms",
+               "time": "1317ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1309ms",
+                         "time": "1317ms",
                          "methods": [
                               {
                                    "name": "method7",
                                    "class": "UsingExamples",
-                                   "time": "701ms",
+                                   "time": "706ms",
                                    "methods": [ ]
                               }
                          ]
@@ -419,17 +419,17 @@
           },
           {
                "id": 21,
-               "time": "1308ms",
+               "time": "1317ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1308ms",
+                         "time": "1317ms",
                          "methods": [
                               {
                                    "name": "method7",
                                    "class": "UsingExamples",
-                                   "time": "702ms",
+                                   "time": "705ms",
                                    "methods": [ ]
                               }
                          ]
@@ -438,17 +438,17 @@
           },
           {
                "id": 22,
-               "time": "1308ms",
+               "time": "1316ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1308ms",
+                         "time": "1316ms",
                          "methods": [
                               {
                                    "name": "method7",
                                    "class": "UsingExamples",
-                                   "time": "701ms",
+                                   "time": "706ms",
                                    "methods": [ ]
                               }
                          ]
@@ -457,17 +457,17 @@
           },
           {
                "id": 23,
-               "time": "1308ms",
+               "time": "1317ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1308ms",
+                         "time": "1317ms",
                          "methods": [
                               {
                                    "name": "method7",
                                    "class": "UsingExamples",
-                                   "time": "701ms",
+                                   "time": "706ms",
                                    "methods": [ ]
                               }
                          ]
@@ -476,17 +476,17 @@
           },
           {
                "id": 24,
-               "time": "1308ms",
+               "time": "1317ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1308ms",
+                         "time": "1317ms",
                          "methods": [
                               {
                                    "name": "method7",
                                    "class": "UsingExamples",
-                                   "time": "701ms",
+                                   "time": "705ms",
                                    "methods": [ ]
                               }
                          ]
@@ -495,17 +495,17 @@
           },
           {
                "id": 25,
-               "time": "1324ms",
+               "time": "1316ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1324ms",
+                         "time": "1316ms",
                          "methods": [
                               {
                                    "name": "method7",
                                    "class": "UsingExamples",
-                                   "time": "715ms",
+                                   "time": "706ms",
                                    "methods": [ ]
                               }
                          ]
@@ -514,17 +514,17 @@
           },
           {
                "id": 26,
-               "time": "1311ms",
+               "time": "1320ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1311ms",
+                         "time": "1320ms",
                          "methods": [
                               {
                                    "name": "method7",
                                    "class": "UsingExamples",
-                                   "time": "702ms",
+                                   "time": "712ms",
                                    "methods": [ ]
                               }
                          ]
@@ -533,17 +533,17 @@
           },
           {
                "id": 27,
-               "time": "1310ms",
+               "time": "1319ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1310ms",
+                         "time": "1319ms",
                          "methods": [
                               {
                                    "name": "method7",
                                    "class": "UsingExamples",
-                                   "time": "702ms",
+                                   "time": "713ms",
                                    "methods": [ ]
                               }
                          ]
@@ -552,17 +552,17 @@
           },
           {
                "id": 28,
-               "time": "1311ms",
+               "time": "1319ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1311ms",
+                         "time": "1319ms",
                          "methods": [
                               {
                                    "name": "method7",
                                    "class": "UsingExamples",
-                                   "time": "702ms",
+                                   "time": "713ms",
                                    "methods": [ ]
                               }
                          ]
@@ -571,17 +571,17 @@
           },
           {
                "id": 29,
-               "time": "1310ms",
+               "time": "1319ms",
                "methods": [
                     {
                          "name": "method6",
                          "class": "UsingExamples",
-                         "time": "1310ms",
+                         "time": "1319ms",
                          "methods": [
                               {
                                    "name": "method7",
                                    "class": "UsingExamples",
-                                   "time": "702ms",
+                                   "time": "713ms",
                                    "methods": [ ]
                               }
                          ]
