@@ -114,9 +114,7 @@ namespace TracerUnitTest
 
             Assert.IsTrue(traceresult.threads[0].TimeInt>=sleeptime*3);
         }
-        //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
         //вложенные потоки
         [TestMethod]
         public void TestNestedThreads()
